@@ -1,4 +1,4 @@
-# Toold for Creating Fast Bokeh Visualizations
+# Tools for Creating Fast Bokeh Visualizations
 
 
 # Basic Plotting
