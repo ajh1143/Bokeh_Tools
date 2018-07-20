@@ -21,6 +21,16 @@ class BasicPlot():
         Return: circle glyph
         """
         return figure.circle(x=xdata, y=ydata)
+    
+    
+    def x_values(figure, xdata, ydata):
+        """
+        Args:  figure = basic figure generated with figure_generator
+               xdata = dataset for x axis
+               ydata = dataset for y axis
+        Return: x glyph overlayed onto circle glyph figure
+        """
+        return figure.circle(x=xdata, y=ydata)
         
         
     def viz_output(glyph, page):
